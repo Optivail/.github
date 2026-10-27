@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Optivail: tools for self-hosters">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+.p{animation:pulse 2.4s ease-in-out infinite}.q{animation:pulse 2.4s ease-in-out .8s infinite}</style>
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2dd4bf"/><stop offset="0.5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <radialGradient id="glowA" cx="0.8" cy="0.5" r="0.55"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.18"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="0.1" cy="0.15" r="0.5"><stop offset="0" stop-color="#2dd4bf" stop-opacity="0.12"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/></pattern>
+</defs>
+  <rect width="1280" height="400" rx="24" fill="#0a0e17"/>
+  <rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#glowA)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#glowB)"/>
+  <rect x="0.5" y="0.5" width="1279" height="399" rx="23.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <text x="72" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="84" font-weight="800" letter-spacing="-3" fill="url(#brand)">Optivail</text>
+  <text x="74" y="222" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="500" fill="#e5e7eb">Tools for people who run</text>
+  <text x="74" y="258" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="500" fill="#e5e7eb">their own servers and AI coding CLIs.</text>
+  <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14">
+    <rect x="74" y="292" width="104" height="30" rx="15" fill="#2dd4bf" fill-opacity="0.12" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <text x="126" y="312" text-anchor="middle" fill="#2dd4bf">self-hosted</text>
+    <rect x="188" y="292" width="64" height="30" rx="15" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="220" y="312" text-anchor="middle" fill="#38bdf8">Linux</text>
+    <rect x="262" y="292" width="82" height="30" rx="15" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="303" y="312" text-anchor="middle" fill="#a78bfa">AI CLIs</text>
+  </g>
+
+  <!-- Omynix card -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <rect x="640" y="70" width="270" height="260" rx="16" fill="#101827" stroke="#2dd4bf" stroke-opacity="0.6"/>
+    <g fill="#4ade80">
+      <rect x="664" y="96" width="38" height="16" rx="4" class="p"/><rect x="708" y="96" width="38" height="16" rx="4"/>
+      <rect x="752" y="96" width="38" height="16" rx="4" class="q"/><rect x="796" y="96" width="38" height="16" rx="4"/>
+      <rect x="840" y="96" width="38" height="16" rx="4" class="p"/>
+    </g>
+    <text x="664" y="170" font-size="30" font-weight="800" fill="#e5e7eb">Omynix</text>
+    <text x="664" y="202" font-size="16" fill="#cbd5e1">One panel for all your</text>
+    <text x="664" y="224" font-size="16" fill="#cbd5e1">Linux servers.</text>
+    <rect x="664" y="272" width="112" height="28" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text x="720" y="291" text-anchor="middle" font-size="13" fill="#fbbf24" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">coming soon</text>
+  </g>
+
+  <!-- Gatekeep card -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <rect x="930" y="70" width="278" height="260" rx="16" fill="#101827" stroke="#a78bfa" stroke-opacity="0.6"/>
+    <rect x="954" y="96" width="140" height="16" rx="4" fill="#38bdf8" fill-opacity="0.35"/>
+    <path d="M1100 104h14" stroke="#94a3b8" stroke-opacity="0.7"/><path d="M1110 100l4 4l-4 4" fill="none" stroke="#94a3b8" stroke-opacity="0.7"/>
+    <rect x="1122" y="96" width="34" height="16" rx="4" fill="#4ade80" class="p"/>
+    <text x="954" y="170" font-size="30" font-weight="800" fill="#e5e7eb">Gatekeep</text>
+    <text x="954" y="202" font-size="16" fill="#cbd5e1">Self-hosted proxy that</text>
+    <text x="954" y="224" font-size="16" fill="#cbd5e1">compresses AI coding</text>
+    <text x="954" y="246" font-size="16" fill="#cbd5e1">CLI traffic.</text>
+    <rect x="954" y="272" width="102" height="28" rx="14" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-opacity="0.6"/>
+    <text x="1005" y="291" text-anchor="middle" font-size="13" fill="#4ade80" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">open source</text>
+  </g>
+</svg>
